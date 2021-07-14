@@ -12,14 +12,22 @@ body{
 header{
     width: 100%;
     background: #2D25A0;
+    padding: 35px 0 85px 0;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1164px;
 }
 .header_top{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .header_top_left nav ul {
     display: inline-flex;
+    margin: 0;
+    padding: 0;
 }
 .header_top_left nav ul li {
     list-style: none;
@@ -40,12 +48,13 @@ header{
     background: #E02C6D;
     text-decoration: none;
     color: #fff;
-    padding: 5px 10px;
+    padding: 10px 30px;
 }
 .header_bottom{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding-top: 50px;
 }
 .header_bottom_left h1{
     font-family: Poppins;
@@ -56,7 +65,6 @@ header{
     letter-spacing: 0px;
     text-align: left;
     color: #fff;
-
 }
 .header_bottom_left a{
     font-family: Poppins;
@@ -68,12 +76,67 @@ header{
     background: #E02C6D;
     color: #fff;
     text-align: center;
-    padding: 3% 7%;
+    padding: 11px 25px;
     text-decoration: none;
-
 }
+.header_bottom_left i.fas.fa-arrow-right{
+    padding-left: 10px;
+}
+
 .header_bottom_right img{
     width: 100%;
     align-content: right;
 }
 /* Header Area CSS Ends*/
+
+/* Main Area Starts */
+main{
+    width: 100%;
+    background: #fff;
+}
+
+.players_container{
+    display: flex;
+    justify-content: center;
+}
+.players_area{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    place-items: center;
+    padding: 70px 0;
+}
+.player{
+    max-width: 300px;
+    height: 426px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15); 
+    padding: 15px 15px 33px 15px;
+}
+.player h3{
+    font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 10px;
+letter-spacing: 0em;
+text-align: left;    
+}
+.player p{
+    font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+    
+}
+.player img{
+    width: 100%;
+    height: 256px;
+}
+
+/* Players Area Ends */

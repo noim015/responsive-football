@@ -140,3 +140,116 @@ text-align: left;
 }
 
 /* Players Area Ends */
+
+.matchs_container{
+    width: 100%;
+    background: lightblue;
+    padding: 15px 0 80px;
+}
+.matchs_area{
+    max-width: 1164px;
+    margin: 0 auto;
+}
+.matchs_area h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #22222b;
+}
+.matchs h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #735f63; 
+}
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #fff;
+    text-align: left;
+    padding: 8px;
+  }
+
+
+  /* Latest News Area */
+  .latest_news_area{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    place-items: center;
+    padding: 70px 0;
+    
+  }
+  .latest_news_area h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #E02C6D;
+  }
+  .news{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15); 
+    padding: 15px 15px 33px 15px;
+    overflow: hidden;
+    transition: all 0.1s;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  .news h3{
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2D25A0;
+    padding: 0 2%;
+  }
+  .news:hover .newstitle{
+    color: #E02C6D;
+    display: block;
+    transition: all 0.5s;
+  }
+  .news:hover{
+    background: #2D25A0;
+  }
+  .news:hover .newsimg{
+    opacity: 90%;
+    transition: all 0.1s;
+  }
+  .news img{
+    max-width: 300px;
+  }
+  .view_more{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    background: #E02C6D;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px; 
+  }
+
+/* Gallery Area CSS */
+.gallery_area{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.gallery{
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.gallery img{
+    width: 100%;
+}
+.gallery_container h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #E02C6D;
+}
